@@ -1,0 +1,11 @@
+Package: com.victorluhe.appstorefix
+Name: AppStoreFix
+Version: 3
+Architecture: iphoneos-arm
+Description: Naprawa App Store na iOS 6
+Maintainer: Bartek
+Author: Victor Luhe
+Section: Tweaks
+Filename: com.victorluhe.appstorefix_3_iphoneos-arm.deb
+Size: 1024
+MD5sum: 32fac2coba18f3e952879b92ca3497f
