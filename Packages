@@ -1,9 +1,9 @@
-Package: com.victorlobe.appstorefix
+Package: com.victorluhe.appstorefix
 Name: AppStoreFix
 Version: 3
 Architecture: iphoneos-arm
-Description: Fixes App Store issues on legacy iOS.
-Filename: ./com.victorlobe.appstorefix_3_iphoneos-arm.deb
+Description: Naprawa App Store na iOS 6
+Maintainer: Bartek
+Author: Victor Luhe
 Section: Tweaks
-Maintainer: Victor Lobe
-Author: Victor Lobe
+Filename: com.victorluhe.appstorefix_3_iphoneos-arm.deb
