@@ -1,0 +1,19 @@
+Package: com.zmaster.androidlockxt
+Name: AndroidLock XT
+Version: 2.7
+Architecture: iphoneos-arm
+Description: Motyw blokady ekranu w stylu Androida.
+Maintainer: ZMaster
+Section: Tweaks
+Filename: ./com.zmaster.androidlockxt_2.7_iphoneos-arm.deb
+MD5sum: dd8e8a8a98d92cd73e1c267c42ff4ca2
+
+Package: com.victorlobe.appstorefix
+Name: AppStoreFix
+Version: 3
+Architecture: iphoneos-arm
+Description: Naprawa App Store na starszych wersjach iOS.
+Maintainer: Victorlobe
+Section: Tweaks
+Filename: ./com.victorlobe.appstorefix_3_iphoneos-arm.deb
+MD5sum: 32fae1cbba710f3e952879b92ca3497f
