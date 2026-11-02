@@ -1,9 +1,35 @@
+Package: com.bartek.everpwnage
+Name: EverPwnage
+Version: 2.0.2
+Architecture: iphoneos-arm
+Description: Zaawansowane narzędzie do zarządzania i modyfikacji pakietów IPA.
+Maintainer: Bartek
+Section: Utilities
+Filename: EverPwnage-v2.0.2.ipa
+
 Package: com.victorluhe.appstorefix
 Name: AppStoreFix
 Version: 3
 Architecture: iphoneos-arm
-Description: Naprawa App Store na iOS 6
+Description: Naprawa App Store i błędów serwerów na starszych wersjach iOS (iOS 6 / iOS 8).
 Maintainer: Bartek
-Author: Victor Luhe
 Section: Tweaks
 Filename: com.victorluhe.appstorefix_3_iphoneos-arm.deb
+
+Package: com.zmaster.androidlockxt
+Name: AndroidLock XT
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Blokada ekranu w stylu Androida (wzór / gest) zamiast kodu.
+Maintainer: Bartek
+Section: Tweaks
+Filename: com.zmaster.androidlockxt_2_iphoneos-arm.deb
+
+Package: com.bartek.elektronika.helper
+Name: Bartek Elektronika Helper
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Pomocniczy skrypt i plik konfiguracyjny repozytorium.
+Maintainer: Bartek
+Section: System
+Filename: gemini-code-1793377901476.deb
