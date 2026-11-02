@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartek Elektronika - Repo Cydia</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+        h1 {
+            color: #00ffcc;
+            font-size: 28px;
+            margin: 10px 0;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 14px;
+        }
+        .btn-cydia {
+            display: inline-block;
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .btn-cydia:hover {
+            background-color: #3cb371;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+        }
+        .app-card {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .app-card:hover {
+            border-color: #00ffcc;
+            background-color: #252525;
+        }
+        .app-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .app-desc {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #bbb;
+            display: none;
+            border-top: 1px solid #333;
+            padding-top: 10px;
+        }
+        .app-card.active .app-desc {
+            display: block;
+        }
+        .badge {
+            font-size: 11px;
+            background-color: #333;
+            color: #00ffcc;
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bartek Elektronika</h1>
+        <p class="subtitle">Oficjalne repozytorium tweaków i aplikacji dla systemu iOS</p>
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://bartekelektronika-maker.github.io/cydia-repo/" class="btn-cydia">+ Dodaj źródło do Cydii</a>
+    </header>
+
+    <div class="container">
+        
+        <!-- Aplikacja 1 -->
+        <div class="app-card" onclick="this.classList.toggle('active')">
+            <div class="app-title">
+                <span>EverPwnage-v2.0.2.ipa</span>
+                <span class="badge">IPA / Narzędzie</span>
+            </div>
+            <div class="app-desc">
+                <strong>Opis działania:</strong> Zaawansowane narzędzie do modyfikacji i zarządzania pakietami oraz aplikacjami IPA na urządzeniach Apple. Pomaga w instalacji i zarządzaniu niestandardowymi paczkami bezpośrednio z poziomu systemu.
+            </div>
+        </div>
+
+        <!-- Aplikacja 2 -->
+        <div class="app-card" onclick="this.classList.toggle('active')">
+            <div class="app-title">
+                <span>AndroidLock XT</span>
+                <span class="badge">Tweak / Bezpieczeństwo</span>
+            </div>
+            <div class="app-desc">
+                <strong>Opis działania:</strong> Kultowy tweak jailbreakowy znany z systemu Android, który pozwala zabezpieczyć ekran blokady iPhone'a za pomocą niestandardowego wzoru (gestu łączenia kropek) zamiast tradycyjnego kodu numerycznego.
+            </div>
+        </div>
+
+        <!-- Aplikacja 3 -->
+        <div class="app-card" onclick="this.classList.toggle('active')">
+            <div class="app-title">
+                <span>AppStoreFix</span>
+                <span class="badge">Tweak / System</span>
+            </div>
+            <div class="app-desc">
+                <strong>Opis działania:</strong> Specjalna poprawka systemowa dla starszych wersji systemu iOS (np. iOS 6 lub iOS 8), która naprawia problemy z ładowaniem się sklepu App Store oraz błędy połączenia z serwerami Apple.
+            </div>
+        </div>
+
+        <!-- Aplikacja 4 -->
+        <div class="app-card" onclick="this.classList.toggle('active')">
+            <div class="app-title">
+                <span>Skrypt / Narzędzie Pomocnicze</span>
+                <span class="badge">Skrypt / Inne</span>
+            </div>
+            <div class="app-desc">
+                <strong>Opis działania:</strong> Dodatkowy plik pomocniczy wspierający działanie repozytorium oraz ułatwiający poprawną komunikację menedżerów pakietów ze strukturą plików na GitHubie.
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
